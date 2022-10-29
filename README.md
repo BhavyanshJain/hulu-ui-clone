@@ -137,7 +137,7 @@ Project Link: [https://github.com/BhavyanshJain/hulu-ui-clone](https://github.co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[license-shield]: https://img.shields.io/github/license/BhavyanshJain/hulu-ui-clone
+[license-shield]: https://img.shields.io/github/license/BhavyanshJain/hulu-ui-clone.svg?style=flat
 [license-url]: https://github.com/BhavyanshJain/hulu-ui-clone/blob/master/LICENSE
 [next.js]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [nextjs-url]: https://nextjs.org/
