@@ -1,7 +1,8 @@
 module.exports = {
-  mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       screens: {
@@ -11,9 +12,6 @@ module.exports = {
     flex: {
       bits: "1 0 100%",
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };

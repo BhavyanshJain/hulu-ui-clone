@@ -3,14 +3,14 @@ import Image from "next/image";
 import HeaderItem from "./HeaderItem";
 import {
   HomeIcon,
-  BadgeCheckIcon,
-  CollectionIcon,
+  CheckBadgeIcon,
   UserIcon,
-  SearchIcon,
-  LightningBoltIcon,
-  MenuIcon,
-  XIcon,
-} from "@heroicons/react/outline";
+  BoltIcon,
+  Bars3Icon,
+  XMarkIcon,
+  RectangleStackIcon,
+  MagnifyingGlassIcon,
+} from "@heroicons/react/24/outline";
 
 export default function Header() {
   const [clicked, setClicked] = useState(false);
@@ -36,10 +36,10 @@ export default function Header() {
             }
           >
             <HeaderItem title="HOME" Icon={HomeIcon} />
-            <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
-            <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon} />
-            <HeaderItem title="COLLECTIONS" Icon={CollectionIcon} />
-            <HeaderItem title="SEARCH" Icon={SearchIcon} />
+            <HeaderItem title="TRENDING" Icon={BoltIcon} />
+            <HeaderItem title="VERIFIED" Icon={CheckBadgeIcon} />
+            <HeaderItem title="COLLECTIONS" Icon={RectangleStackIcon} />
+            <HeaderItem title="SEARCH" Icon={MagnifyingGlassIcon} />
             <HeaderItem title="ACCOUNT" Icon={UserIcon} />
           </div>
 
@@ -52,9 +52,9 @@ export default function Header() {
 
           <button className="sm:hidden" onClick={clickHandler}>
             {clicked ? (
-              <XIcon className="h-8 mb-1 hover:text-white" />
+              <XMarkIcon className="h-8 mb-1 hover:text-white" />
             ) : (
-              <MenuIcon className="h-8 mb-1 hover:text-white" />
+              <Bars3Icon className="h-8 mb-1 hover:text-white" />
             )}
           </button>
         </div>
